@@ -28,6 +28,9 @@ data["SUMMON"] = {
 data["LIMITED_STOCK_UNITS"] = {
     ["unit_jelly_shroom"] = { ["PRICE"] = "35,000 GEMS" },
     ["unit_crystal_flower"] = { ["PRICE"] = "50,000 GEMS" },
+    ["unit_poison_plant"] = { ["PRICE"] = "150,000 SEEDS" },
+    ["unit_lullaby"] = { ["PRICE"] = "250,000 SEEDS" },
+    ["unit_hypno"] = { ["PRICE"] = "250,000 TICKETS" },
 };
 
 data["MAP_LIST"] = {
@@ -88,6 +91,12 @@ data["MAPS"] = {
         ["ID"] = "space",
         ["Classic Difficulties"] = 6;
     };
+};
+
+data["AA"] = {
+    ["OBBY"] = {};
+    ["SURVIVAL"] = {};
+    ["FFA"] = { "Back yard" };
 };
 
 return data;
