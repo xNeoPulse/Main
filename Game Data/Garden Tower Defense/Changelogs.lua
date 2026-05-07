@@ -1,5 +1,6 @@
 return {
     ["1.0.0"] = {
-        "Test Changelogs"
+        "Added Auto Lobby, Auto Difficulty, Auto Next";
+        "Added Macro, Macro Maps";
     };
 }
