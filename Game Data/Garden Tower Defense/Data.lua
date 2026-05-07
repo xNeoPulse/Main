@@ -20,9 +20,6 @@ data["SUMMON"] = {
     ["GEMS"] = {
         ["Galaxy Summon"] = { ID = "ub_space", PRICE_X1 = 25, PRICE_X10 = 225 },
     };
-    ["EGGS"] = {
-        ["Bunny Summon"] = { ID = "ub_easter", PRICE_X1 = 100, PRICE_X10 = 900 },
-    };
 };
 
 data["LIMITED_STOCK_UNITS"] = {
