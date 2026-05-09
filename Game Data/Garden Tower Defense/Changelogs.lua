@@ -1,6 +1,7 @@
 return {
     {
         ["Version"] = "1.0.0";
+        ["Date"] = "2026-05-08";
         ["Status"] = "Beta";
         ["Logs"] = {
             "Added Auto Lobby";
