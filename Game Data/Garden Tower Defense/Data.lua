@@ -23,11 +23,10 @@ data["SUMMON"] = {
 };
 
 data["LIMITED_STOCK_UNITS"] = {
-    ["unit_jelly_shroom"] = { ["PRICE"] = "35,000 GEMS" },
-    ["unit_crystal_flower"] = { ["PRICE"] = "50,000 GEMS" },
-    ["unit_poison_plant"] = { ["PRICE"] = "150,000 SEEDS" },
-    ["unit_lullaby"] = { ["PRICE"] = "250,000 SEEDS" },
-    ["unit_hypno"] = { ["PRICE"] = "250,000 TICKETS" },
+    ["unit_crystal_flower"] = { ["PRICE"] = "50,000 GEMS", ["STOCKS"] = 19999 },
+    ["unit_hypno"] = { ["PRICE"] = "200,000 SEEDS", ["STOCKS"] = 9999 },
+    ["unit_dynosprout"] = { ["PRICE"] = "250,000 SEEDS", ["STOCKS"] = 17499},
+    ["unit_starbud"] = { ["PRICE"] = "175,000 SEEDS", ["STOCKS"] = 12,499 },
 };
 
 data["MAP_LIST"] = {
