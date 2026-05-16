@@ -24,9 +24,9 @@ data["SUMMON"] = {
 
 data["LIMITED_STOCK_UNITS"] = {
     ["unit_crystal_flower"] = { ["PRICE"] = "50,000 GEMS", ["STOCKS"] = 19999 },
-    ["unit_hypno"] = { ["PRICE"] = "200,000 SEEDS", ["STOCKS"] = 9999 },
     ["unit_dynosprout"] = { ["PRICE"] = "250,000 SEEDS", ["STOCKS"] = 17499},
-    ["unit_starbud"] = { ["PRICE"] = "175,000 SEEDS", ["STOCKS"] = 12,499 },
+    ["unit_toxic_altar"] = { ["PRICE"] = "250,000 SEEDS", ["STOCKS"] = 13499 },
+    ["unit_robo_pellet"] = { ["PRICE"] = "150,000 SEEDS", ["STOCKS"] = 7777 },
 };
 
 data["MAP_LIST"] = {
