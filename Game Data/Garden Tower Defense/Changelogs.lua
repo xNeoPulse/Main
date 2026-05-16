@@ -1,5 +1,13 @@
 return {
     {
+        ["Version"] = "1.0.1";
+        ["Date"] = "2026-05-16";
+        ["Status"] = "Beta";
+        ["Logs"] = {
+            "Updated to latest data.";
+            "Added Macro Record (higher executors)";
+        };
+    },{
         ["Version"] = "1.0.0";
         ["Date"] = "2026-05-08";
         ["Status"] = "Beta";
