@@ -1,7 +1,7 @@
 return {
     {
         ["Version"] = "1.0.0";
-        ["Date"] = "2026-05-09";
+        ["Date"] = 1778299200;
         ["Status"] = "Beta";
         ["Logs"] = {
             "Added Auto Catch";
