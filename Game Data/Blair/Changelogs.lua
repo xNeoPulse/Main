@@ -1,7 +1,7 @@
 return {
     {
         ["Version"] = "1.0.1";
-        ["Date"] = "2026-05-16";
+        ["Date"] = 1778904000;
         ["Status"] = "Beta";
         ["Logs"] = {
             "Added Cursed Object Info";
@@ -11,7 +11,7 @@ return {
         };
     },{
         ["Version"] = "1.0.0";
-        ["Date"] = "2026-05-08";
+        ["Date"] = 1778212800;
         ["Status"] = "Beta";
         ["Logs"] = {
             "Added Custom Light";
