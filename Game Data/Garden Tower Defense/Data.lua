@@ -43,56 +43,65 @@ data["MAP_LIST"] = {
     "Underwater",
 };
 
+data["DIFFICULTIES"] = {
+    "Easy",
+    "Normal",
+    "Hard",
+    "Insane",
+    "Impossible",
+    "Apocalypse",
+}
+
 data["MAPS"] = {
     ["Garden"] = {
         ["Available"] = {"Classic", "Endless", "Survival"},
         ["ID"] = "farm",
-        ["Classic Difficulties"] = 4,
+        ["Difficulties"] = 4,
     };
     ["Enchanted Jungle"] = {
         ["Available"] = {"Classic", "Endless", "Survival"},
         ["ID"] = "jungle",
-        ["Classic Difficulties"] = 5,
+        ["Difficulties"] = 5,
     };
     ["Tropical Island"] = {
         ["Available"] = {"Classic", "Endless", "Survival"},
         ["ID"] = "island",
-        ["Classic Difficulties"] = 5,
+        ["Difficulties"] = 5,
     };
     ["Toxic Facility"] = {
         ["Available"] = {"Classic", "Endless", "Survival"},
         ["ID"] = "toxic",
-        ["Classic Difficulties"] = 5,
+        ["Difficulties"] = 5,
     };
     ["Graveyard"] = {
         ["Available"] = {"Classic", "Endless", "Survival"},
         ["ID"] = "graveyard",
-        ["Classic Difficulties"] = 5,
+        ["Difficulties"] = 5,
     };
     ["Back Garden"] = {
         ["Available"] = {"Classic", "Endless", "Survival"},
         ["ID"] = "back_garden",
-        ["Classic Difficulties"] = 5,
+        ["Difficulties"] = 5,
     };
     ["Dojo"] = {
         ["Available"] = {"Classic", "Endless", "Survival"},
         ["ID"] = "dojo",
-        ["Classic Difficulties"] = 6,
+        ["Difficulties"] = 6,
     };
     ["Winter Wonderland"] = {
         ["Available"] = {"Classic", "Endless", "Survival"},
         ["ID"] = "christmas",
-        ["Classic Difficulties"] = 6,
+        ["Difficulties"] = 6,
     };
     ["Space"] = {
         ["Available"] = {"Classic", "Endless"},
         ["ID"] = "space",
-        ["Classic Difficulties"] = 6,
+        ["Difficulties"] = 6,
     };
     ["Underwater"] = {
-        ["Available"] = {"Underwater"},
+        ["Available"] = {"Others"},
         ["ID"] = "underwater",
-        ["Classic Difficuties"] = 6,
+        ["Difficuties"] = 6,
     };
 };
 
