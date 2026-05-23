@@ -7,6 +7,7 @@ data["Target Priority"] = {
 data["SUMMON"] = {
     ["SEEDS"] = {
         ["Astral Summon"] = { ["ID"] = "ub_astral", ["PRICE_X1"] = 300, ["PRICE_X10"] = 2700 },
+        ["Aqua Summon"] = { ["ID"] = "ub_underwater", ["PRICE_X1"] = 500, ["PRICE_X10"] = 4500 },
         ["Bee Summon"] = { ["ID"] = "ub_bee", ["PRICE_X1"] = 300, ["PRICE_X10"] = 2700 },
         ["Classic Summon"] = { ["ID"] = "ub_classic", ["PRICE_X1"] = 100, ["PRICE_X10"] = 900 },
         ["Corrupted Summon"] = { ["ID"] = "ub_corrupted", ["PRICE_X1"] = 500, ["PRICE_X10"] = 4500 },
@@ -24,9 +25,9 @@ data["SUMMON"] = {
 
 data["LIMITED_STOCK_UNITS"] = {
     ["unit_crystal_flower"] = { ["PRICE"] = "50,000 GEMS", ["STOCKS"] = 19999 },
-    ["unit_dynosprout"] = { ["PRICE"] = "250,000 SEEDS", ["STOCKS"] = 17499},
     ["unit_toxic_altar"] = { ["PRICE"] = "250,000 SEEDS", ["STOCKS"] = 13499 },
-    ["unit_robo_pellet"] = { ["PRICE"] = "150,000 SEEDS", ["STOCKS"] = 7777 },
+    ["unit_axolotl_cave"] = { ["PRICE"] = "250,000 SEEDS", ["STOCKS"] = 13499 },
+    ["unit_sea_chest"] = { ["PRICE"] = "150,000 SEEDS", ["STOCKS"] = 9999 },
 };
 
 data["MAP_LIST"] = {
@@ -39,6 +40,7 @@ data["MAP_LIST"] = {
     "Dojo",
     "Winter Wonderland",
     "Space"
+    "Underwater",
 };
 
 data["MAPS"] = {
@@ -75,17 +77,22 @@ data["MAPS"] = {
     ["Dojo"] = {
         ["Available"] = {"Classic", "Endless", "Survival"},
         ["ID"] = "dojo",
-        ["Classic Difficulties"] = 6;
+        ["Classic Difficulties"] = 6,
     };
     ["Winter Wonderland"] = {
         ["Available"] = {"Classic", "Endless", "Survival"},
         ["ID"] = "christmas",
-        ["Classic Difficulties"] = 6;
+        ["Classic Difficulties"] = 6,
     };
     ["Space"] = {
         ["Available"] = {"Classic", "Endless"},
         ["ID"] = "space",
-        ["Classic Difficulties"] = 6;
+        ["Classic Difficulties"] = 6,
+    };
+    ["Underwater"] = {
+        ["Available"] = {"Unique"},
+        ["ID"] = "underwater",
+        ["Classic Difficuties"] = 6,
     };
 };
 
