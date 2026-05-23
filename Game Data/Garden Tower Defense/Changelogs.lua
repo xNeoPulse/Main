@@ -1,5 +1,12 @@
 return {
     {
+        ["Version"] = "1.0.2";
+        ["Date"] = 1779551065;
+        ["Status"] = "Beta";
+        ["Logs"] = {
+            "Updated to latest data.";
+        };
+    },{
         ["Version"] = "1.0.1";
         ["Date"] = 1778904000;
         ["Status"] = "Beta";
