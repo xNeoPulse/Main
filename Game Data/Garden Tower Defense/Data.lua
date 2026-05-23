@@ -39,7 +39,7 @@ data["MAP_LIST"] = {
     "Back Garden",
     "Dojo",
     "Winter Wonderland",
-    "Space"
+    "Space",
     "Underwater",
 };
 
