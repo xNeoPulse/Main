@@ -109,61 +109,51 @@ data["MAPS"] = {
     ["map_farm"] = {
         ["Available"] = {"Classic", "Endless"},
         ["Display"] = "Garden",
-        ["ID"] = "map_farm",
         ["Difficulties"] = 4,
     };
     ["map_jungle"] = {
         ["Available"] = {"Classic", "Endless"},
         ["Display"] = "Enchanted Jungle",
-        ["ID"] = "map_jungle",
         ["Difficulties"] = 5,
     };
     ["map_island"] = {
         ["Available"] = {"Classic", "Endless"},
         ["Display"] = "Tropical Island",
-        ["ID"] = "map_island",
         ["Difficulties"] = 5,
     };
     ["map_toxic"] = {
         ["Available"] = {"Classic", "Endless"},
         ["Display"] = "Toxic Facility",
-        ["ID"] = "map_toxic",
         ["Difficulties"] = 5,
     };
     ["map_graveyard"] = {
         ["Available"] = {"Classic", "Endless"},
         ["Display"] = "Graveyard",
-        ["ID"] = "map_graveyard",
         ["Difficulties"] = 5,
     };
     ["map_back_garden"] = {
         ["Available"] = {"Classic", "Endless"},
         ["Display"] = "Back Garden",
-        ["ID"] = "map_back_garden",
         ["Difficulties"] = 5,
     };
     ["map_dojo"] = {
         ["Available"] = {"Classic", "Endless"},
         ["Display"] = "Dojo",
-        ["ID"] = "map_dojo",
         ["Difficulties"] = 6,
     };
     ["map_underwater"] = {
         ["Available"] = {"Classic", "Endless"},
         ["Display"] = "Aqua",
-        ["ID"] = "map_underwater",
         ["Difficuties"] = 6,
     };
     ["map_christmas"] = {
         ["Available"] = {"Classic", "Endless"},
         ["Display"] = "Winter Wonderland",
-        ["ID"] = "map_christmas",
         ["Difficulties"] = 6,
     };
     ["map_space"] = {
         ["Available"] = {"Classic", "Endless"},
         ["Display"] = "Space",
-        ["ID"] = "map_space",
         ["Difficulties"] = 6,
     };
 
@@ -171,49 +161,41 @@ data["MAPS"] = {
     ["map_dungeon_farm"] = {
         ["Available"] = {"Survival"},
         ["Display"] = "Garden Island",
-        ["ID"] = "map_dungeon_farm",
         ["Difficulties"] = 5,
     };
     ["map_dungeon_jungle"] = {
         ["Available"] = {"Survival"},
         ["Display"] = "Jungle Island",
-        ["ID"] = "map_dungeon_jungle",
         ["Difficulties"] = 5,
     };
     ["map_dungeon_tropical"] = {
         ["Available"] = {"Survival"},
         ["Display"] = "Tropical Island",
-        ["ID"] = "map_dungeon_tropical",
         ["Difficulties"] = 5,
     };
     ["map_dungeon_toxic"] = {
         ["Available"] = {"Survival"},
         ["Display"] = "Toxic Island",
-        ["ID"] = "map_dungeon_toxic",
         ["Difficulties"] = 5,
     };
     ["map_dungeon_graveyard"] = {
         ["Available"] = {"Survival"},
         ["Display"] = "Graveyard Island",
-        ["ID"] = "map_dungeon_graveyard",
         ["Difficulties"] = 5,
     };
     ["map_dungeon_back_garden"] = {
         ["Available"] = {"Survival"},
         ["Display"] = "Back Garden Island",
-        ["ID"] = "map_dungeon_back_garden",
         ["Difficulties"] = 5,
     };
     ["map_dungeon_dojo"] = {
         ["Available"] = {"Survival"},
         ["Display"] = "Dojo Island",
-        ["ID"] = "map_dungeon_dojo",
         ["Difficulties"] = 5,
     };
     ["map_winter"] = {
         ["Available"] = {"Survival"},
         ["Display"] = "Winter Island",
-        ["ID"] = "map_winter",
         ["Difficulties"] = 5,
     };
 };
