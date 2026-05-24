@@ -38,9 +38,9 @@ data["MAP_LIST"] = {
     "Graveyard",
     "Back Garden",
     "Dojo",
+    "Aqua",
     "Winter Wonderland",
     "Space",
-    "Underwater",
 };
 
 data["DIFFICULTIES"] = {
@@ -53,6 +53,7 @@ data["DIFFICULTIES"] = {
 }
 
 data["MAPS"] = {
+    -- TEMP
     ["Garden"] = {
         ["Available"] = {"Classic", "Endless", "Survival"},
         ["ID"] = "farm",
@@ -88,6 +89,11 @@ data["MAPS"] = {
         ["ID"] = "dojo",
         ["Difficulties"] = 6,
     };
+    ["Aqua"] = {
+        ["Available"] = {"Classic", "Endless"},
+        ["ID"] = "underwater",
+        ["Difficuties"] = 6,
+    };
     ["Winter Wonderland"] = {
         ["Available"] = {"Classic", "Endless", "Survival"},
         ["ID"] = "christmas",
@@ -98,10 +104,99 @@ data["MAPS"] = {
         ["ID"] = "space",
         ["Difficulties"] = 6,
     };
-    ["Underwater"] = {
+
+    -- CLASSIC & ENDLESS
+    ["map_farm"] = {
         ["Available"] = {"Classic", "Endless"},
-        ["ID"] = "underwater",
+        ["Display"] = "Garden",
+        ["Difficulties"] = 4,
+    };
+    ["map_jungle"] = {
+        ["Available"] = {"Classic", "Endless"},
+        ["Display"] = "Enchanted Jungle",
+        ["Difficulties"] = 5,
+    };
+    ["map_island"] = {
+        ["Available"] = {"Classic", "Endless"},
+        ["Display"] = "Tropical Island",
+        ["Difficulties"] = 5,
+    };
+    ["map_toxic"] = {
+        ["Available"] = {"Classic", "Endless"},
+        ["Display"] = "Toxic Facility",
+        ["Difficulties"] = 5,
+    };
+    ["map_graveyard"] = {
+        ["Available"] = {"Classic", "Endless"},
+        ["Display"] = "Graveyard",
+        ["Difficulties"] = 5,
+    };
+    ["map_back_garden"] = {
+        ["Available"] = {"Classic", "Endless"},
+        ["Display"] = "Back Garden",
+        ["Difficulties"] = 5,
+    };
+    ["map_dojo"] = {
+        ["Available"] = {"Classic", "Endless"},
+        ["Display"] = "Dojo",
+        ["Difficulties"] = 6,
+    };
+    ["map_underwater"] = {
+        ["Available"] = {"Classic", "Endless"},
+        ["Display"] = "Aqua",
         ["Difficuties"] = 6,
+    };
+    ["map_christmas"] = {
+        ["Available"] = {"Classic", "Endless"},
+        ["Display"] = "Winter Wonderland",
+        ["Difficulties"] = 6,
+    };
+    ["map_space"] = {
+        ["Available"] = {"Classic", "Endless"},
+        ["Display"] = "Space",
+        ["Difficulties"] = 6,
+    };
+
+    -- SURVIVALS
+    ["map_dungeon_farm"] = {
+        ["Available"] = {"Survival"},
+        ["Display"] = "Garden Island",
+        ["Difficulties"] = 5,
+    };
+    ["map_dungeon_jungle"] = {
+        ["Available"] = {"Survival"},
+        ["Display"] = "Jungle Island",
+        ["Difficulties"] = 5,
+    };
+    ["map_dungeon_tropical"] = {
+        ["Available"] = {"Survival"},
+        ["Display"] = "Tropical Island",
+        ["Difficulties"] = 5,
+    };
+    ["map_dungeon_toxic"] = {
+        ["Available"] = {"Survival"},
+        ["Display"] = "Toxic Island",
+        ["Difficulties"] = 5,
+    };
+    ["map_dungeon_graveyard"] = {
+        ["Available"] = {"Survival"},
+        ["Display"] = "Graveyard Island",
+        ["Difficulties"] = 5,
+    };
+    ["map_dungeon_back_garden"] = {
+        ["Available"] = {"Survival"},
+        ["Display"] = "Back Garden Island",
+        ["Difficulties"] = 5,
+    };
+    ["map_dungeon_dojo"] = {
+        ["Available"] = {"Survival"},
+        ["Display"] = "Dojo Island",
+        ["Difficulties"] = 5,
+    };
+    ["map_winter"] = {
+        ["Available"] = {"Survival"},
+        ["Display"] = "Winter Island",
+        ["Difficulties"] = 5,
     };
 };
 
