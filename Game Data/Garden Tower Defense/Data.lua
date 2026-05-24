@@ -99,7 +99,7 @@ data["MAPS"] = {
         ["Difficulties"] = 6,
     };
     ["Underwater"] = {
-        ["Available"] = {"Classic"},
+        ["Available"] = {"Classic", "Endless"},
         ["ID"] = "underwater",
         ["Difficuties"] = 6,
     };
