@@ -193,7 +193,7 @@ data["MAPS"] = {
         ["Display"] = "Dojo Island",
         ["Difficulties"] = 5,
     };
-    ["map_winter"] = {
+    ["map_dungeon_winter"] = {
         ["Available"] = {"Survival"},
         ["Display"] = "Winter Island",
         ["Difficulties"] = 5,
