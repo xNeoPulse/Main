@@ -79,7 +79,7 @@ data["MAPS"] = {
     ["map_underwater"] = {
         ["Available"] = {"Classic", "Endless"},
         ["Display"] = "Aqua",
-        ["Difficuties"] = 6,
+        ["Difficulties"] = 6,
     };
     ["map_christmas"] = {
         ["Available"] = {"Classic", "Endless"},
