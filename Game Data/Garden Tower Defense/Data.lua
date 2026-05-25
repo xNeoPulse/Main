@@ -24,23 +24,10 @@ data["SUMMON"] = {
 };
 
 data["LIMITED_STOCK_UNITS"] = {
-    ["unit_crystal_flower"] = { ["PRICE"] = "50,000 GEMS", ["STOCKS"] = 19999 },
-    ["unit_toxic_altar"] = { ["PRICE"] = "250,000 SEEDS", ["STOCKS"] = 13499 },
-    ["unit_axolotl_cave"] = { ["PRICE"] = "250,000 SEEDS", ["STOCKS"] = 13499 },
-    ["unit_sea_chest"] = { ["PRICE"] = "150,000 SEEDS", ["STOCKS"] = 9999 },
-};
-
-data["MAP_LIST"] = {
-    "Garden",
-    "Enchanted Jungle",
-    "Tropical Island",
-    "Toxic Facility",
-    "Graveyard",
-    "Back Garden",
-    "Dojo",
-    "Aqua",
-    "Winter Wonderland",
-    "Space",
+    ["unit_crystal_flower"] = { ["PRICE"] = "50,000 GEMS" },
+    ["unit_toxic_altar"] = { ["PRICE"] = "250,000 SEEDS" },
+    ["unit_axolotl_cave"] = { ["PRICE"] = "250,000 SEEDS" },
+    ["unit_sea_chest"] = { ["PRICE"] = "150,000 SEEDS" },
 };
 
 data["DIFFICULTIES"] = {
@@ -53,58 +40,6 @@ data["DIFFICULTIES"] = {
 }
 
 data["MAPS"] = {
-    -- TEMP
-    ["Garden"] = {
-        ["Available"] = {"Classic", "Endless", "Survival"},
-        ["ID"] = "farm",
-        ["Difficulties"] = 4,
-    };
-    ["Enchanted Jungle"] = {
-        ["Available"] = {"Classic", "Endless", "Survival"},
-        ["ID"] = "jungle",
-        ["Difficulties"] = 5,
-    };
-    ["Tropical Island"] = {
-        ["Available"] = {"Classic", "Endless", "Survival"},
-        ["ID"] = "island",
-        ["Difficulties"] = 5,
-    };
-    ["Toxic Facility"] = {
-        ["Available"] = {"Classic", "Endless", "Survival"},
-        ["ID"] = "toxic",
-        ["Difficulties"] = 5,
-    };
-    ["Graveyard"] = {
-        ["Available"] = {"Classic", "Endless", "Survival"},
-        ["ID"] = "graveyard",
-        ["Difficulties"] = 5,
-    };
-    ["Back Garden"] = {
-        ["Available"] = {"Classic", "Endless", "Survival"},
-        ["ID"] = "back_garden",
-        ["Difficulties"] = 5,
-    };
-    ["Dojo"] = {
-        ["Available"] = {"Classic", "Endless", "Survival"},
-        ["ID"] = "dojo",
-        ["Difficulties"] = 6,
-    };
-    ["Aqua"] = {
-        ["Available"] = {"Classic", "Endless"},
-        ["ID"] = "underwater",
-        ["Difficuties"] = 6,
-    };
-    ["Winter Wonderland"] = {
-        ["Available"] = {"Classic", "Endless", "Survival"},
-        ["ID"] = "christmas",
-        ["Difficulties"] = 6,
-    };
-    ["Space"] = {
-        ["Available"] = {"Classic", "Endless"},
-        ["ID"] = "space",
-        ["Difficulties"] = 6,
-    };
-
     -- CLASSIC & ENDLESS
     ["map_farm"] = {
         ["Available"] = {"Classic", "Endless"},
