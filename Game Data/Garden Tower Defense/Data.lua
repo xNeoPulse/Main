@@ -24,6 +24,7 @@ data["SUMMON"] = {
 };
 
 data["LIMITED_STOCK_UNITS"] = {
+    ["unit_crystal_flower"] = { ["PRICE"] = "150,000 SEEDS" },
     ["unit_toxic_altar"] = { ["PRICE"] = "250,000 SEEDS" },
     ["unit_sea_chomp"] = { ["PRICE"] = "250,000 SEEDS" },
     ["unit_squid_stem"] = { ["PRICE"] = "150,000 SEEDS" },
