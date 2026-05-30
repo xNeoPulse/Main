@@ -24,10 +24,9 @@ data["SUMMON"] = {
 };
 
 data["LIMITED_STOCK_UNITS"] = {
-    ["unit_crystal_flower"] = { ["PRICE"] = "50,000 GEMS" },
     ["unit_toxic_altar"] = { ["PRICE"] = "250,000 SEEDS" },
-    ["unit_axolotl_cave"] = { ["PRICE"] = "250,000 SEEDS" },
-    ["unit_sea_chest"] = { ["PRICE"] = "150,000 SEEDS" },
+    ["unit_sea_chomp"] = { ["PRICE"] = "250,000 SEEDS" },
+    ["unit_squid_stem"] = { ["PRICE"] = "150,000 SEEDS" },
 };
 
 data["DIFFICULTIES"] = {
