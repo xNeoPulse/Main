@@ -1616,10 +1616,10 @@ function Library:AddDraggableLabel(Text: string)
 	return Table
 end
 
-function Library:AddDraggableButton(Text: string, Func, ExcludeScaling: boolean?)
+function Library:AddDraggableButton(Text: string, Func, ExcludeScaling: boolean?, ExcludeDragging: boolean?)
 	local Table = {}
 
-	local Button = New("TextButton", {
+	local Button: TextButton = New("TextButton", {
 		BackgroundColor3 = "BackgroundColor",
 		Position = UDim2.fromOffset(6, 6),
 		TextSize = 16,
@@ -1643,9 +1643,34 @@ function Library:AddDraggableButton(Text: string, Func, ExcludeScaling: boolean?
 	end
 	Library:AddOutline(Button)
 
-	Button.MouseButton1Click:Connect(function()
-		Library:SafeCallback(Func, Table)
+	local DragThreshold = if ExcludeDragging then 0.25 else math.huge
+	Button.InputBegan:Connect(function(Input: InputObject)
+        if not IsClickInput(Input) then
+            return
+        end
+        
+		local Start = tick()
+
+        local Changed
+        Changed = Input.Changed:Connect(function()
+            if Input.UserInputState ~= Enum.UserInputState.End then
+                return
+            end
+
+            local IsLikelyDragging = tick() - Start > DragThreshold
+            if IsLikelyDragging then
+                return
+            end
+
+            Library:SafeCallback(Func, Table)
+
+            if Changed and Changed.Connected then
+                Changed:Disconnect()
+                Changed = nil
+            end
+        end)
 	end)
+
 	Library:MakeDraggable(Button, Button, true)
 
 	Table.Button = Button
@@ -8782,12 +8807,12 @@ function Library:CreateWindow(WindowInfo)
 		else
 			ToggleButton = Library:AddDraggableButton("Toggle", function()
 				Library:Toggle()
-			end, true)
+			end, true, true)
 
 			LockButton = Library:AddDraggableButton("Lock", function(self)
 				Library.CantDragForced = not Library.CantDragForced
 				self:SetText(Library.CantDragForced and "Unlock" or "Lock")
-			end, true)
+			end, true, true)
 		end
 
 		if WindowInfo.MobileButtonsSide == "Right" then
