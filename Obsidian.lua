@@ -1791,7 +1791,7 @@ function Library:AddDraggableMenu(Name: string)
 		AutomaticSize = Enum.AutomaticSize.XY,
 		BackgroundTransparency = 1,
 		Position = UDim2.fromOffset(0, 35),
-		Size = UDim2.new(1, 0, 1, -35),
+		Size = UDim2.new(0, 0, 1, -35),
 		Parent = Holder,
 	})
 	New("UIListLayout", {
