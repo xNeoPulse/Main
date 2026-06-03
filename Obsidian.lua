@@ -1787,6 +1787,8 @@ function Library:AddDraggableMenu(Name: string)
 		Parent = Label,
 	})
 
+	local Table = {}
+
 	local Container = New("Frame", {
 		AutomaticSize = Enum.AutomaticSize.XY,
 		BackgroundTransparency = 1,
@@ -1807,8 +1809,38 @@ function Library:AddDraggableMenu(Name: string)
 		Parent = Container,
 	})
 
+	Table.Container = Container
+	Table.Counter = 0
+	function Table:AddLabel(Text)
+		local LabelTable = {}
+
+		local Label = New("TextLabel", {
+			BackgroundTransparency = 1,
+			Size = UDim2.new(0, 0, 0, 20),
+			LayoutOrder = Table.Counter,
+			Visible = true,
+			ZIndex = 11,
+			Text = Text,
+			TextSize = 15,
+			TextXAlignment = Enum.TextXAlignment.Left,
+			Parent = Container,
+		})
+		LabelTable.Label = Label
+
+		function LabelTable:SetText(text)
+			Label.Text = text;
+		end
+
+		function LabelTable:SetVisible(visible)
+			Label.Visible = visible;
+		end
+		Table.Counter = Table.Counter + 1
+
+		return LabelTable
+	end
+
 	Library:MakeDraggable(Holder, Label, true)
-	return Holder, Container
+	return Holder, Table
 end
 
 --// Watermark - Deprecated \\--
@@ -2396,7 +2428,7 @@ do
 				Size = UDim2.new(1, 0, 0, 16),
 				Text = "",
 				Visible = not Info.NoUI,
-				Parent = Library.KeybindContainer,
+				Parent = Library.KeybindContainer.Container,
 			})
 
 			local Label = New("TextLabel", {
