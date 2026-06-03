@@ -1796,6 +1796,7 @@ function Library:AddDraggableMenu(Name: string)
 	})
 	New("UIListLayout", {
 		Padding = UDim.new(0, 7),
+		SortOrder = Enum.SortOrder.LayoutOrder,
 		Parent = Container,
 	})
 	New("UIPadding", {
