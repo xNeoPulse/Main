@@ -1820,9 +1820,9 @@ function Library:AddDraggableMenu(Name: string)
 			local Table = {}
 
 			local Label = New("TextLabel", {
-				AutomaticSize = Enum.AutomaticSize.X,
+				AutomaticSize = Enum.AutomaticSize.XY,
 				BackgroundTransparency = 1,
-				Size = UDim2.new(0, 0, 0, 20),
+				Size = UDim2.new(0, 0, 0, 0),
 				LayoutOrder = Container.Counter,
 				Visible = Visible and Visible or false,
 				ZIndex = 11,
