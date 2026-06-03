@@ -1745,6 +1745,7 @@ function Library:AddDraggableToggle(Image: string, Click, Double)
 end
 
 function Library:AddDraggableMenu(Name: string)
+	local Container = {}
 	local Holder = New("Frame", {
 		AutomaticSize = Enum.AutomaticSize.XY,
 		BackgroundColor3 = "BackgroundColor",
@@ -1753,94 +1754,98 @@ function Library:AddDraggableMenu(Name: string)
 		ZIndex = 10,
 		Parent = ScreenGui,
 	})
-	table.insert(
-		Library.Corners,
-		New("UICorner", {
-			CornerRadius = UDim.new(0, Library.CornerRadius),
-			Parent = Holder,
+	
+	do
+		table.insert(
+			Library.Corners,
+			New("UICorner", {
+				CornerRadius = UDim.new(0, Library.CornerRadius),
+				Parent = Holder,
+			})
+		)
+		table.insert(
+			Library.Scales,
+			New("UIScale", {
+				Parent = Holder,
+			})
+		)
+		Library:AddOutline(Holder)
+
+		Library:MakeLine(Holder, {
+			Position = UDim2.fromOffset(0, 34),
+			Size = UDim2.new(1, 0, 0, 1),
 		})
-	)
-	table.insert(
-		Library.Scales,
-		New("UIScale", {
-			Parent = Holder,
-		})
-	)
-	Library:AddOutline(Holder)
-
-	Library:MakeLine(Holder, {
-		Position = UDim2.fromOffset(0, 34),
-		Size = UDim2.new(1, 0, 0, 1),
-	})
-
-	local Label = New("TextLabel", {
-		BackgroundTransparency = 1,
-		Size = UDim2.new(1, 0, 0, 34),
-		Text = Name,
-		TextSize = 15,
-		TextXAlignment = Enum.TextXAlignment.Left,
-		Parent = Holder,
-	})
-	New("UIPadding", {
-		PaddingLeft = UDim.new(0, 12),
-		PaddingRight = UDim.new(0, 12),
-		Parent = Label,
-	})
-
-	local Table = {}
-
-	local Container = New("Frame", {
-		AutomaticSize = Enum.AutomaticSize.XY,
-		BackgroundTransparency = 1,
-		Position = UDim2.fromOffset(0, 35),
-		Size = UDim2.new(0, 0, 1, -35),
-		Parent = Holder,
-	})
-	New("UIListLayout", {
-		Padding = UDim.new(0, 7),
-		SortOrder = Enum.SortOrder.LayoutOrder,
-		Parent = Container,
-	})
-	New("UIPadding", {
-		PaddingBottom = UDim.new(0, 7),
-		PaddingLeft = UDim.new(0, 7),
-		PaddingRight = UDim.new(0, 7),
-		PaddingTop = UDim.new(0, 7),
-		Parent = Container,
-	})
-
-	Table.Container = Container
-	Table.Counter = 0
-	function Table:AddLabel(Text)
-		local LabelTable = {}
 
 		local Label = New("TextLabel", {
 			BackgroundTransparency = 1,
-			Size = UDim2.new(0, 0, 0, 20),
-			LayoutOrder = Table.Counter,
-			Visible = true,
-			ZIndex = 11,
-			Text = Text,
+			Size = UDim2.new(1, 0, 0, 34),
+			Text = Name,
 			TextSize = 15,
 			TextXAlignment = Enum.TextXAlignment.Left,
-			Parent = Container,
+			Parent = Holder,
 		})
-		LabelTable.Label = Label
-
-		function LabelTable:SetText(text)
-			Label.Text = text;
-		end
-
-		function LabelTable:SetVisible(visible)
-			Label.Visible = visible;
-		end
-		Table.Counter = Table.Counter + 1
-
-		return LabelTable
+		New("UIPadding", {
+			PaddingLeft = UDim.new(0, 12),
+			PaddingRight = UDim.new(0, 12),
+			Parent = Label,
+		})
+		Library:MakeDraggable(Holder, Label, true)
 	end
 
-	Library:MakeDraggable(Holder, Label, true)
-	return Holder, Table
+	do
+		local Frame = New("Frame", {
+			AutomaticSize = Enum.AutomaticSize.XY,
+			BackgroundTransparency = 1,
+			Position = UDim2.fromOffset(0, 35),
+			Size = UDim2.new(0, 0, 1, -35),
+			Parent = Holder,
+		})
+		New("UIListLayout", {
+			Padding = UDim.new(0, 7),
+			SortOrder = Enum.SortOrder.LayoutOrder,
+			Parent = Frame,
+		})
+		New("UIPadding", {
+			PaddingBottom = UDim.new(0, 7),
+			PaddingLeft = UDim.new(0, 7),
+			PaddingRight = UDim.new(0, 7),
+			PaddingTop = UDim.new(0, 7),
+			Parent = Frame,
+		})
+
+		Container.Container = Frame
+		Container.Counter = 0
+
+		function Container:AddLabel(Text)
+			local LabelTable = {}
+
+			local Label = New("TextLabel", {
+				BackgroundTransparency = 1,
+				Size = UDim2.new(0, 0, 0, 20),
+				LayoutOrder = Container.Counter,
+				Visible = true,
+				ZIndex = 11,
+				Text = Text,
+				TextSize = 15,
+				TextXAlignment = Enum.TextXAlignment.Left,
+				Parent = Frame,
+			})
+			LabelTable.Label = Label
+
+			function LabelTable:SetText(text)
+				Label.Text = text;
+			end
+
+			function LabelTable:SetVisible(visible)
+				Label.Visible = visible;
+			end
+			Container.Counter = Container.Counter + 1
+
+			return LabelTable
+		end
+	end
+
+	return Holder, Container
 end
 
 --// Watermark - Deprecated \\--
