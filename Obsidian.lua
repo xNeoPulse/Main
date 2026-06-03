@@ -1816,32 +1816,32 @@ function Library:AddDraggableMenu(Name: string)
 		Container.Container = Frame
 		Container.Counter = 0
 
-		function Container:AddLabel(Text)
-			local LabelTable = {}
+		function Container:AddLabel(Text, Visible)
+			local Table = {}
 
 			local Label = New("TextLabel", {
 				BackgroundTransparency = 1,
 				Size = UDim2.new(0, 0, 0, 20),
 				LayoutOrder = Container.Counter,
-				Visible = true,
+				Visible = Visible and Visible or false,
 				ZIndex = 11,
 				Text = Text,
 				TextSize = 15,
 				TextXAlignment = Enum.TextXAlignment.Left,
 				Parent = Frame,
 			})
-			LabelTable.Label = Label
+			Table.Label = Label
 
-			function LabelTable:SetText(text)
-				Label.Text = text;
+			function Table:SetText(Text)
+				Label.Text = Text;
 			end
 
-			function LabelTable:SetVisible(visible)
-				Label.Visible = visible;
+			function Table:SetVisible(Visible)
+				Label.Visible = Visible;
 			end
 			Container.Counter = Container.Counter + 1
 
-			return LabelTable
+			return Table
 		end
 	end
 
