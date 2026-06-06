@@ -17,6 +17,7 @@ data["SUMMON"] = {
         ["Mushroom Summon"] = { ["ID"] = "ub_mushroom", ["PRICE_X1"] = 300, ["PRICE_X10"] = 2700 },
         ["Sun Summon"] = { ["ID"] = "ub_sun", ["PRICE_X1"] = 200, ["PRICE_X10"] = 1800 },
         ["Tropical Summon"] = { ["ID"] = "ub_tropical", ["PRICE_X1"] = 200, ["PRICE_X10"] = 1800 },
+        ["Volcano Summon"] = { ["ID"] = "ub_volcano", ["PRICE_X1"] = 500, ["PRICE_X10"] = 4500 },
     };
     ["GEMS"] = {
         ["Galaxy Summon"] = { ["ID"] = "ub_space", ["PRICE_X1"] = 25, ["PRICE_X10"] = 225 },
@@ -25,7 +26,6 @@ data["SUMMON"] = {
 
 data["LIMITED_STOCK_UNITS"] = {
     ["unit_crystal_flower"] = { ["PRICE"] = "150,000 SEEDS" },
-    ["unit_toxic_altar"] = { ["PRICE"] = "250,000 SEEDS" },
     ["unit_meteor_plant"] = { ["PRICE"] = "250,000 SEEDS" },
     ["unit_lava_trunk"] = { ["PRICE"] = "150,000 SEEDS" },
 };
