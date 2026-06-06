@@ -26,8 +26,8 @@ data["SUMMON"] = {
 data["LIMITED_STOCK_UNITS"] = {
     ["unit_crystal_flower"] = { ["PRICE"] = "150,000 SEEDS" },
     ["unit_toxic_altar"] = { ["PRICE"] = "250,000 SEEDS" },
-    ["unit_sea_chomp"] = { ["PRICE"] = "250,000 SEEDS" },
-    ["unit_squid_stem"] = { ["PRICE"] = "150,000 SEEDS" },
+    ["unit_meteor_plant"] = { ["PRICE"] = "250,000 SEEDS" },
+    ["unit_lava_trunk"] = { ["PRICE"] = "150,000 SEEDS" },
 };
 
 data["DIFFICULTIES"] = {
@@ -37,6 +37,7 @@ data["DIFFICULTIES"] = {
     "Insane",
     "Impossible",
     "Apocalypse",
+    "Hell",
 }
 
 data["MAPS"] = {
@@ -85,6 +86,11 @@ data["MAPS"] = {
         ["Available"] = {"Classic", "Endless"},
         ["Display"] = "Winter Wonderland",
         ["Difficulties"] = 6,
+    };
+    ["map_volcano"] = {
+        ["Available"] = {"Classic", "Endless"},
+        ["Display"] = "Volcanic Island",
+        ["Difficulties"] = 7,
     };
     ["map_space"] = {
         ["Available"] = {"Classic", "Endless"},
