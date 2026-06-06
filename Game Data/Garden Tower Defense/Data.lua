@@ -19,8 +19,8 @@ data["SUMMON"] = {
         ["Tropical Summon"] = { ["ID"] = "ub_tropical", ["PRICE_X1"] = 200, ["PRICE_X10"] = 1800 },
         ["Volcano Summon"] = { ["ID"] = "ub_volcano", ["PRICE_X1"] = 500, ["PRICE_X10"] = 4500 },
     };
-    ["GEMS"] = {
-        ["Galaxy Summon"] = { ["ID"] = "ub_space", ["PRICE_X1"] = 25, ["PRICE_X10"] = 225 },
+    ["EVENTS"] = {
+        ["Galaxy Summon"] = { ["ID"] = "ub_space", ["CURRENCY"] = "GEMS", ["PRICE_X1"] = 25, ["PRICE_X10"] = 225 },
     };
 };
 
