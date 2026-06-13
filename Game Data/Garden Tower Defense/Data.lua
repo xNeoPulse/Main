@@ -13,6 +13,7 @@ data["SUMMON"] = {
         ["Corrupted Summon"] = { ["ID"] = "ub_corrupted", ["PRICE_X1"] = 500, ["PRICE_X10"] = 4500 },
         ["Crystal Summon"] = { ["ID"] = "ub_crystal", ["PRICE_X1"] = 250, ["PRICE_X10"] = 2250 },
         ["Enchanted Summon"] = { ["ID"] = "ub_jungle", ["PRICE_X1"] = 150, ["PRICE_X10"] = 1350 },
+        ["Galaxy Summon"] = { ["ID"] = "ub_space", ["PRICE_X1"] = 500, ["PRICE_X10"] = 4500 },
         ["Greenhouse Summon"] = { ["ID"] = "ub_greenhouse", ["PRICE_X1"] = 500, ["PRICE_X10"] = 4500 },
         ["Mushroom Summon"] = { ["ID"] = "ub_mushroom", ["PRICE_X1"] = 300, ["PRICE_X10"] = 2700 },
         ["Sun Summon"] = { ["ID"] = "ub_sun", ["PRICE_X1"] = 200, ["PRICE_X10"] = 1800 },
@@ -27,7 +28,9 @@ data["SUMMON"] = {
 data["LIMITED_STOCK_UNITS"] = {
     ["unit_crystal_flower"] = { ["PRICE"] = "150,000 SEEDS" },
     ["unit_meteor_plant"] = { ["PRICE"] = "250,000 SEEDS" },
-    ["unit_lava_trunk"] = { ["PRICE"] = "150,000 SEEDS" },
+    ["unit_lava_golem"] = { ["PRICE"] = "300,000 SEEDS" },
+    ["unit_evil_stem"] = { ["PRICE"] = "150,000 SEEDS" },
+    ["unit_birthday_cake"] = { ["PRICE"] = "FREE" },
 };
 
 data["DIFFICULTIES"] = {
