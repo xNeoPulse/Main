@@ -27,9 +27,8 @@ data["SUMMON"] = {
 
 data["LIMITED_STOCK_UNITS"] = {
     ["unit_meteor_plant"] = { ["PRICE"] = "250,000 SEEDS" },
-    ["unit_lava_golem"] = { ["PRICE"] = "300,000 SEEDS" },
-    ["unit_evil_stem"] = { ["PRICE"] = "150,000 SEEDS" },
-    ["unit_birthday_cake"] = { ["PRICE"] = "FREE UNIT" },
+    ["unit_life_crystal"] = { ["PRICE"] = "300,000 SEEDS" },
+    ["unit_stem_beam"] = { ["PRICE"] = "150,000 SEEDS" },
 };
 
 data["DIFFICULTIES"] = {
