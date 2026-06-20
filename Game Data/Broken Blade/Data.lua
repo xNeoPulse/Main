@@ -2,37 +2,37 @@ local data = {};
 
 data["Enemies"] = {
     ["Bosses"] = {
-        ["Space Invader"] = { ["Level"] = 15000; ["Name"] = "Space Invader"; };
+        ["Space Invader"] = { ["Level"] = 15000; ["Display"] = "[Lv.15000] Space Invader"; };
 
-        ["Niflor"] = { ["Level"] = 15000; ["Name"] = "Niflor"; };
-        ["Thorvak"] = { ["Level"] = 15000; ["Name"] = "Thorvak"; };
-        ["Hraegon"] = { ["Level"] = 15000; ["Name"] = "Hraegon"; };
-        ["Surtrik"] = { ["Level"] = 15000; ["Name"] = "Surtrik"; };
+        ["Niflor"] = { ["Level"] = 15000; ["Display"] = "[Lv.15000] Niflor"; };
+        ["Thorvak"] = { ["Level"] = 15000; ["Display"] = "[Lv.15000] Thorvak"; };
+        ["Hraegon"] = { ["Level"] = 15000; ["Display"] = "[Lv.15000] Hraegon"; };
+        ["Surtrik"] = { ["Level"] = 15000; ["Display"] = "[Lv.15000] Surtrik"; };
 
-        ["Gelaros"] = { ["Level"] = -1; ["Name"] = "Gelaros"; };
-        ["Nivaron"] = { ["Level"] = 8500; ["Name"] = "Nivaron"; };
-        ["Velik"] = { ["Level"] = 6000; ["Name"] = "Velik"; };
+        ["Gelaros"] = { ["Level"] = -1; ["Display"] = "[Lv.???] Gelaros"; };
+        ["Nivaron"] = { ["Level"] = 8500; ["Display"] = "[Lv.8500] Nivaron"; };
+        ["Velik"] = { ["Level"] = 6000; ["Display"] = "[Lv.6000] Velik"; };
 
-        ["Ragaros"] = { ["Level"] = 4000; ["Name"] = "Ragaros"; };
-        ["Megador"] = { ["Level"] = 3000; ["Name"] = "Megador"; };
+        ["Ragaros"] = { ["Level"] = 4000; ["Display"] = "[Lv.4000] Ragaros"; };
+        ["Megador"] = { ["Level"] = 3000; ["Display"] = "[Lv.3000] Megador"; };
 
-        ["Moraros"] = { ["Level"] = 750; ["Name"] = "Moraros"; };
+        ["Moraros"] = { ["Level"] = 750; ["Display"] = "[Lv.750] Moraros"; };
 
-        ["NameLess Hero"] = { ["Level"] = 150; ["Name"] = "NameLess Hero"; };
+        ["NameLess Hero"] = { ["Level"] = 150; ["Display"] = "[Lv.150] NameLess Hero"; };
     };
     ["Minions"] = {
-        ["Frost Soldier"] = { ["Level"] = 13000; ["Name"] = "Frost Soldier"; };
-        ["Thunder Soldier"] = { ["Level"] = 13000; ["Name"] = "Thunder Soldier"; };
-        ["Wind Soldier"] = { ["Level"] = 13000; ["Name"] = "Wind Soldier"; };
-        ["Flame Soldier"] = { ["Level"] = 13000; ["Name"] = "Flame Soldier"; };
+        ["Frost Soldier"] = { ["Level"] = 13000; ["Display"] = "[Lv.13000] Frost Soldier"; };
+        ["Thunder Soldier"] = { ["Level"] = 13000; ["Display"] = "[Lv.13000] Thunder Soldier"; };
+        ["Wind Soldier"] = { ["Level"] = 13000; ["Display"] = "[Lv.13000] Wind Soldier"; };
+        ["Flame Soldier"] = { ["Level"] = 13000; ["Display"] = "[Lv.13000] Flame Soldier"; };
 
-        ["Frost Minion"] = { ["Level"] = 4000; ["Name"] = "Frost Minion"; };
+        ["Frost Minion"] = { ["Level"] = 4000; ["Display"] = "[Lv.4000] Frost Minion"; };
 
-        ["Flame Minion"] = { ["Level"] = 1000; ["Name"] = "Flame Minion"; };
+        ["Flame Minion"] = { ["Level"] = 1000; ["Display"] = "[Lv.1000] Flame Minion"; };
 
-        ["Soul Minion"] = { ["Level"] = 200; ["Name"] = "Soul Minion"; };
+        ["Soul Minion"] = { ["Level"] = 200; ["Display"] = "[Lv.200] Soul Minion"; };
 
-        ["Sailor"] = { ["Level"] = 10; ["Name"] = "Sailor"; };
+        ["Sailor"] = { ["Level"] = 10; ["Display"] = "[Lv.10] Sailor"; };
     };
     ["Raid"] = {
         ["Headless Knight"] = { ["Difficulties"] = { "Nightmare" }; ["Name"] = "Headless Knight" };
@@ -48,6 +48,18 @@ data["Enemies"] = {
         ["Ragaros"] = { ["Difficulties"] = { "Hard", "Nightmare" }; ["Name"] = "Ragaros"; };
         ["Magandor"] = { ["Difficulties"] = { "Hard", "Nightmare" }; ["Name"] = "Magandor"; };
         ["Moraros"] = { ["Difficulties"] = { "Hard", "Nightmare" }; ["Name"] = "Moraros"; };
+    };
+}
+
+data["Weapons"] = {
+    ["Sword"] = {
+
+    };
+    ["Katana"] = {
+
+    };
+    ["Buster"] = {
+
     };
 }
 
