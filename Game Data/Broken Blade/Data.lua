@@ -46,11 +46,11 @@ data["Enemies"] = {
         ["Moraros"] = { ["Difficulties"] = { "Hard", "Nightmare" }; };
     };
     ["Explosion"] = {
-        ["Headless Knight"] = { ["Difficulties"] = { "Nightmare" }; };
+        ["Headless Knight"] = { ["Display"] = "[Nightmare]Headless Knight"; };
 
-        ["Mad Dog"] = { ["Difficulties"] = { "Nightmare" }; };
-        ["Stuggler"] = { ["Difficulties"] = { "15000" }; };
-        ["Black Swordsman"] = { ["Difficulties"] = { "3000" }; };
+        ["Mad Dog"] = { ["Display"] = "[Nightmare] Mad Dog"; };
+        ["Struggler"] = { ["Display"] = "[Lv.15000] Struggler"; };
+        ["Black Swordsman"] = { ["Display"] = "[Lv.3000] Black Swordsman"; };
     };
 };
 
