@@ -34,13 +34,14 @@ data["Enemies"] = {
 
         ["Sailor"] = { ["Level"] = 10; ["Display"] = "[Lv.10] Sailor"; };
     };
-    ["Raid"] = {
+    ["Explosion"] = {
         ["Headless Knight"] = { ["Difficulties"] = { "Nightmare" }; ["Name"] = "Headless Knight" };
 
         ["Mad Dog"] = { ["Difficulties"] = { "Nightmare" }; ["Name"] = "Mad Dog"; };
         ["Stuggler"] = { ["Difficulties"] = { "15000" }; ["Name"] = "Stuggler"; };
         ["Black Swordsman"] = { ["Difficulties"] = { "3000" }; ["Name"] = "Black Swordsman"; };
-
+    };
+    ["Raid"] = {
         ["Veyrath"] = { ["Difficulties"] = { "Hard", "Nightmare" }; ["Name"] = "Veyrath"; };
         ["Gelaros"] = { ["Difficulties"] = { "Hard", "Nightmare" }; ["Name"] = "Gelaros"; };
         ["Nivaron"] = { ["Difficulties"] = { "Hard", "Nightmare" }; ["Name"] = "Nivaron"; };
@@ -64,9 +65,14 @@ data["Weapons"] = {
 };
 
 data["Chests"] = {
-    "Space Chest";
     "Mythic Chest";
-    ""
+    "Space Chest";
+    "Holy Chest";
+    "Legendary Chest";
+    "Epic Chest";
+    "Rare Chest";
+    "Uncommon Chest";
+    "Common Chest";
 };
 
 data["Teleports"] = {
