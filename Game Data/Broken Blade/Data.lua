@@ -49,7 +49,7 @@ data["Enemies"] = {
         ["Magandor"] = { ["Difficulties"] = { "Hard", "Nightmare" }; ["Name"] = "Magandor"; };
         ["Moraros"] = { ["Difficulties"] = { "Hard", "Nightmare" }; ["Name"] = "Moraros"; };
     };
-}
+};
 
 data["Weapons"] = {
     ["Sword"] = {
@@ -61,6 +61,26 @@ data["Weapons"] = {
     ["Buster"] = {
 
     };
-}
+};
+
+data["Chests"] = {
+    "Space Chest";
+    "Mythic Chest";
+    ""
+};
+
+data["Teleports"] = {
+    ["Origin Island"] = {};
+    ["Helheim"] = {};
+    ["Muspelheim"] = {};
+    ["Niflheim"] = {};
+    ["Nidavellir"] = {};
+    ["Explosion"] = {};
+    ["Jotunheim"] = {};
+    ["Midgard"] = {};
+    
+    ["Sky Spire"] = {}
+
+};
 
 return data;
