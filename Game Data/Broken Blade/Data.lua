@@ -16,6 +16,8 @@ data["Enemies"] = {
         ["Ragaros"] = { ["Level"] = 4000; ["Display"] = "[Lv.4000] Ragaros"; };
         ["Megador"] = { ["Level"] = 3000; ["Display"] = "[Lv.3000] Megador"; };
 
+        ["Black Swordsman"] = { ["Level"] = 3000; ["Display"] = "[Lv.3000] Black Swordsman"; };
+
         ["Moraros"] = { ["Level"] = 750; ["Display"] = "[Lv.750] Moraros"; };
 
         ["NameLess Hero"] = { ["Level"] = 150; ["Display"] = "[Lv.150] NameLess Hero"; };
