@@ -36,21 +36,21 @@ data["Enemies"] = {
 
         ["Sailor"] = { ["Level"] = 10; ["Display"] = "[Lv.10] Sailor"; };
     };
-    ["Explosion"] = {
-        ["Headless Knight"] = { ["Difficulties"] = { "Nightmare" }; ["Name"] = "Headless Knight" };
-
-        ["Mad Dog"] = { ["Difficulties"] = { "Nightmare" }; ["Name"] = "Mad Dog"; };
-        ["Stuggler"] = { ["Difficulties"] = { "15000" }; ["Name"] = "Stuggler"; };
-        ["Black Swordsman"] = { ["Difficulties"] = { "3000" }; ["Name"] = "Black Swordsman"; };
-    };
     ["Raid"] = {
-        ["Veyrath"] = { ["Difficulties"] = { "Hard", "Nightmare" }; ["Name"] = "Veyrath"; };
-        ["Gelaros"] = { ["Difficulties"] = { "Hard", "Nightmare" }; ["Name"] = "Gelaros"; };
-        ["Nivaron"] = { ["Difficulties"] = { "Hard", "Nightmare" }; ["Name"] = "Nivaron"; };
-        ["Velik"] = { ["Difficulties"] = { "Hard", "Nightmare" }; ["Name"] = "Velik"; };
-        ["Ragaros"] = { ["Difficulties"] = { "Hard", "Nightmare" }; ["Name"] = "Ragaros"; };
-        ["Magandor"] = { ["Difficulties"] = { "Hard", "Nightmare" }; ["Name"] = "Magandor"; };
-        ["Moraros"] = { ["Difficulties"] = { "Hard", "Nightmare" }; ["Name"] = "Moraros"; };
+        ["Veyrath"] = { ["Difficulties"] = { "Hard", "Nightmare" }; };
+        ["Gelaros"] = { ["Difficulties"] = { "Hard", "Nightmare" }; };
+        ["Nivaron"] = { ["Difficulties"] = { "Hard", "Nightmare" }; };
+        ["Velik"] = { ["Difficulties"] = { "Hard", "Nightmare" }; };
+        ["Ragaros"] = { ["Difficulties"] = { "Hard", "Nightmare" }; };
+        ["Magandor"] = { ["Difficulties"] = { "Hard", "Nightmare" }; };
+        ["Moraros"] = { ["Difficulties"] = { "Hard", "Nightmare" }; };
+    };
+    ["Explosion"] = {
+        ["Headless Knight"] = { ["Difficulties"] = { "Nightmare" }; };
+
+        ["Mad Dog"] = { ["Difficulties"] = { "Nightmare" }; };
+        ["Stuggler"] = { ["Difficulties"] = { "15000" }; };
+        ["Black Swordsman"] = { ["Difficulties"] = { "3000" }; };
     };
 };
 
