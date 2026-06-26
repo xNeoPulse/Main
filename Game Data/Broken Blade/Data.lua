@@ -56,39 +56,35 @@ data["Enemies"] = {
 
 data["Weapons"] = {
     ["Sword"] = {
-
+        "Nameless Blade",
+        "Wind Fang",
+        "Night Whisper",
+        "Light Scar",
+        "Excalibur",
     };
     ["Katana"] = {
-
+        "Stone Cleaver",
+        "Moon Cut",
+        "Yamato",
     };
     ["Buster"] = {
-
+        "Soul Devourer",
+        "Explosion",
+        "Dragon Slayer",
+        "Wyvern Ignition",
     };
 };
 
 data["Chests"] = {
-    "Mythic Chest";
+    "Void Chest";
     "Space Chest";
     "Holy Chest";
+    "Mythical Chest";
     "Legendary Chest";
     "Epic Chest";
     "Rare Chest";
     "Uncommon Chest";
     "Common Chest";
-};
-
-data["Teleports"] = {
-    ["Origin Island"] = {};
-    ["Helheim"] = {};
-    ["Muspelheim"] = {};
-    ["Niflheim"] = {};
-    ["Nidavellir"] = {};
-    ["Explosion"] = {};
-    ["Jotunheim"] = {};
-    ["Midgard"] = {};
-    
-    ["Sky Spire"] = {}
-
 };
 
 return data;
