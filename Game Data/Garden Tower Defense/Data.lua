@@ -22,13 +22,15 @@ data["SUMMON"] = {
     };
     ["EVENTS"] = {
         --["Galaxy Summon"] = { ["ID"] = "ub_space", ["CURRENCY"] = "GEMS", ["PRICE_X1"] = 25, ["PRICE_X10"] = 225 },
+        ["Lucky Block Summon"] = { ["ID"] = "ub_luckyblock", ["CURRENCY"] = "LUCKY BLOCK", ["PRICE_X1"] = 100, ["PRICE_X10"] = 900 },
     };
 };
 
 data["LIMITED_STOCK_UNITS"] = {
     ["unit_meteor_plant"] = { ["PRICE"] = "250,000 SEEDS" },
     ["unit_life_crystal"] = { ["PRICE"] = "300,000 SEEDS" },
-    ["unit_stem_beam"] = { ["PRICE"] = "150,000 SEEDS" },
+    ["unit_electric_root"] = { ["PRICE"] = "150,000 SEEDS" },
+    ["unit_plasma_blaster"] = { ["PRICE"] = "250,000 SEEDS" },
 };
 
 data["DIFFICULTIES"] = {
