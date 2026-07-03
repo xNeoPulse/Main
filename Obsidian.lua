@@ -7941,7 +7941,7 @@ function Library:CreateMobileButtons(WindowInfo)
                 BackgroundColor3 = "BackgroundColor",
                 Position = UDim2.fromOffset(6, 6),
                 Size = UDim2.fromOffset(32, 32),
-                ZIndex = 10,
+                ZIndex = 100,
                 Text = "",
                 Parent = ScreenGui,
             })
@@ -7951,7 +7951,7 @@ function Library:CreateMobileButtons(WindowInfo)
                 BorderSizePixel = 0,
                 Position = UDim2.fromScale(0.5, 0.5),
                 Size = UDim2.new(1, -4, 1, -4),
-                ZIndex = 10,
+                ZIndex = 100,
                 Image = "",
                 ScaleType = Enum.ScaleType.Crop,
                 Parent = Button,
