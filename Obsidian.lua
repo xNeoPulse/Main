@@ -7981,10 +7981,10 @@ function Library:CreateMobileButtons(Icon)
             end)
 
             function DraggableToggle:SetImage(Image: string)
-                local Icon = Library:GetCustomIcon(Image)
-                ImageLabel.Image = Icon.Url
-                ImageLabel.ImageRectOffset = Icon.ImageRectOffset
-                ImageLabel.ImageRectSize = Icon.ImageRectSize
+                local ImageIcon = Library:GetCustomIcon(Image)
+                ImageLabel.Image = ImageIcon.Url
+                ImageLabel.ImageRectOffset = ImageIcon.ImageRectOffset
+                ImageLabel.ImageRectSize = ImageIcon.ImageRectSize
             end
 
             Library:MakeDraggable(Button, Button, true)
