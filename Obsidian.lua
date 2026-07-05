@@ -8018,13 +8018,12 @@ function Library:CreateMobileButtons(Icon)
 
             return DraggableToggle
         end
-        ToggleButton = CreateToggle({
-            WindowInfo.Icon,
+        ToggleButton = CreateToggle(
             function()
                 Library:Toggle()
             end,
             true
-        })
+        )
     else
         ToggleButton = Library:AddDraggableButton("Toggle", function()
             Library:Toggle()
