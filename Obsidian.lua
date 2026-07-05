@@ -7910,27 +7910,14 @@ function Library:Notify(...)
     return Data
 end
 
-function Library:CreateMobileButtons(WindowInfo)
+function Library:CreateMobileButtons(Icon)
     local ToggleButton = nil
     local LockButton = nil
 
-    if WindowInfo.Icon then
+    if Icon then
         local function CreateToggle(...)
-            local Params = select(1, ...)
-
-            local Image
-            local Func
-            local ExcludeDragging
-
-            if typeof(Params) == "table" then
-                Image = Params.Image
-                Func = Params.Callback or Params.Func
-                ExcludeDragging = Params.ExcludeDragging
-            elseif typeof(Params) == "number" then
-                Image = Params
-                Func = select(2, ...)
-                ExcludeDragging = select(3, ...)
-            end
+            local Func = select(1, ...)
+            local ExcludeDragging = select(2, ...)
 
             local DraggableToggle = {
                 Connections = {},
@@ -8001,7 +7988,7 @@ function Library:CreateMobileButtons(WindowInfo)
             end
 
             Library:MakeDraggable(Button, Button, true)
-            DraggableToggle:SetImage(Image)
+            DraggableToggle:SetImage(Icon)
             DraggableToggle.Button = Button
 
             if not table.find(Library.DraggableElements, Button) then
@@ -10630,7 +10617,7 @@ function Library:CreateWindow(WindowInfo)
     end
 
     if Library.IsMobile then
-        Library:CreateMobileButtons(WindowInfo)
+        Library:CreateMobileButtons(WindowInfo.Icon)
     end
 
     --// Execution \\--
