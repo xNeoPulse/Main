@@ -27,10 +27,10 @@ data["SUMMON"] = {
 };
 
 data["LIMITED_STOCK_UNITS"] = {
-    ["unit_meteor_plant"] = { ["PRICE"] = "250,000 SEEDS" },
     ["unit_life_crystal"] = { ["PRICE"] = "300,000 SEEDS" },
-    ["unit_electric_root"] = { ["PRICE"] = "150,000 SEEDS" },
     ["unit_plasma_blaster"] = { ["PRICE"] = "250,000 SEEDS" },
+    ["unit_poison_bite"] = { ["PRICE"] = "125,000 LUCKY BLOCKS" },
+    ["unit_stun_leaf"] = { ["PRICE"] = "175,000 SEEDS" },
 };
 
 data["DIFFICULTIES"] = {
