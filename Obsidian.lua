@@ -7926,7 +7926,7 @@ function Library:CreateMobileButtons(WindowInfo)
                 Image = Params.Image
                 Func = Params.Callback or Params.Func
                 ExcludeDragging = Params.ExcludeDragging
-            elseif typeof(Params) == "string" then
+            elseif typeof(Params) == "number" then
                 Image = Params
                 Func = select(2, ...)
                 ExcludeDragging = select(3, ...)
@@ -8031,12 +8031,13 @@ function Library:CreateMobileButtons(WindowInfo)
 
             return DraggableToggle
         end
-        ToggleButton = CreateToggle(WindowInfo.Icon,
+        ToggleButton = CreateToggle({
+            WindowInfo.Icon,
             function()
                 Library:Toggle()
             end,
             true
-        )
+        })
     else
         ToggleButton = Library:AddDraggableButton("Toggle", function()
             Library:Toggle()
