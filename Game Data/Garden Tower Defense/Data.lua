@@ -27,9 +27,9 @@ data["SUMMON"] = {
 };
 
 data["LIMITED_STOCK_UNITS"] = {
-    ["unit_life_crystal"] = { ["PRICE"] = "300,000 SEEDS" },
-    ["unit_plasma_blaster"] = { ["PRICE"] = "250,000 SEEDS" },
-    ["unit_poison_bite"] = { ["PRICE"] = "125,000 LUCKY BLOCKS" },
+    ["unit_clock_flower"] = { ["PRICE"] = "175,000 SEEDS" },
+    ["unit_minions"] = { ["PRICE"] = "100,000 LUCKY BLOCKS" },
+    ["unit_poison_bite"] = { ["PRICE"] = "100,000 LUCKY BLOCKS" },
     ["unit_stun_leaf"] = { ["PRICE"] = "175,000 SEEDS" },
 };
 
