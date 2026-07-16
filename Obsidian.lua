@@ -354,7 +354,7 @@ local Templates = {
 
     --// Library \\--
     Window = {
-        Title = "No Title",
+        Title = "NeoPulse Hub",
         Footer = "No Footer",
 
         Position = UDim2.fromOffset(6, 6),
@@ -418,8 +418,8 @@ local Templates = {
         FooterButtons = {}
     },
     Loading = {
-        Title = "mspaint",
-        Icon = 95816097006870,
+        Title = "NeoPulse Hub",
+        Icon = 128960209186539,
         IconSize = UDim2.fromOffset(30, 30),
 
         LoadingIcon = CustomImageManager.GetAsset("LoadingIcon"),
