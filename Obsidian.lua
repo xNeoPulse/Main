@@ -355,7 +355,7 @@ local Templates = {
     --// Library \\--
     Window = {
         Title = "NeoPulse Hub",
-        Footer = "No Footer",
+        Footer = "Game | discord.gg/dVeedeGgyQ",
 
         Position = UDim2.fromOffset(6, 6),
         Size = UDim2.fromOffset(720, 600),
