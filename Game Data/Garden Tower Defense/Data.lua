@@ -79,25 +79,25 @@ data["MAPS"] = {
         ["Display"] = "Dojo Dynasty",
         ["Difficulties"] = 6,
     };
-    ["map_underwater"] = {
-        ["Available"] = {"Classic", "Endless"},
-        ["Display"] = "Aqua",
-        ["Difficulties"] = 6,
-    };
     ["map_christmas"] = {
         ["Available"] = {"Classic", "Endless"},
         ["Display"] = "Winter Wonderland",
         ["Difficulties"] = 6,
     };
-    ["map_volcano"] = {
-        ["Available"] = {"Classic", "Endless"},
-        ["Display"] = "Volcanic Vengeance",
-        ["Difficulties"] = 7,
-    };
     ["map_space"] = {
         ["Available"] = {"Classic", "Endless"},
         ["Display"] = "Space Showdown",
         ["Difficulties"] = 6,
+    };
+    -- ["map_underwater"] = {
+    --     ["Available"] = {"Classic", "Endless"},
+    --     ["Display"] = "Aqua",
+    --     ["Difficulties"] = 6,
+    -- };
+    ["map_volcano"] = {
+        ["Available"] = {"Classic", "Endless"},
+        ["Display"] = "Volcanic Vengeance",
+        ["Difficulties"] = 7,
     };
 
     -- SURVIVALS
