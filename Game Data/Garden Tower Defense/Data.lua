@@ -89,11 +89,11 @@ data["MAPS"] = {
         ["Display"] = "Space Showdown",
         ["Difficulties"] = 6,
     };
-    -- ["map_underwater"] = {
-    --     ["Available"] = {"Classic", "Endless"},
-    --     ["Display"] = "Aqua",
-    --     ["Difficulties"] = 6,
-    -- };
+    ["map_underwater"] = {
+        ["Available"] = {"Classic", "Endless"},
+        ["Display"] = "Aqua Ambush",
+        ["Difficulties"] = 6,
+    };
     ["map_volcano"] = {
         ["Available"] = {"Classic", "Endless"},
         ["Display"] = "Volcanic Vengeance",
