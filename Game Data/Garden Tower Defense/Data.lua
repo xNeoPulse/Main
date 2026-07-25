@@ -21,15 +21,13 @@ data["SUMMON"] = {
         ["Volcano Summon"] = { ["ID"] = "ub_volcano", ["PRICE_X1"] = 500, ["PRICE_X10"] = 4500 },
     };
     ["EVENTS"] = {
-        --["Galaxy Summon"] = { ["ID"] = "ub_space", ["CURRENCY"] = "GEMS", ["PRICE_X1"] = 25, ["PRICE_X10"] = 225 },
         --["Lucky Block Summon"] = { ["ID"] = "ub_luckyblock", ["CURRENCY"] = "LUCKY BLOCK", ["PRICE_X1"] = 100, ["PRICE_X10"] = 900 },
     };
 };
 
 data["LIMITED_STOCK_UNITS"] = {
-    ["unit_poison_vine"] = { ["PRICE"] = "150,000 SEEDS" },
-    ["unit_tree_golem"] = { ["PRICE"] = "300,000 SEEDS" },
-    ["unit_poison_bite"] = { ["PRICE"] = "175,000 SEEDS" },
+    ["unit_water_cannon"] = { ["PRICE"] = "150,000 SEEDS" },
+    ["unit_surge_root"] = { ["PRICE"] = "300,000 SEEDS" },
 };
 
 data["DIFFICULTIES"] = {
@@ -79,25 +77,25 @@ data["MAPS"] = {
         ["Display"] = "Dojo Dynasty",
         ["Difficulties"] = 6,
     };
-    ["map_christmas"] = {
-        ["Available"] = {"Classic", "Endless"},
-        ["Display"] = "Winter Wonderland",
-        ["Difficulties"] = 6,
-    };
-    ["map_space"] = {
-        ["Available"] = {"Classic", "Endless"},
-        ["Display"] = "Space Showdown",
-        ["Difficulties"] = 6,
-    };
     ["map_underwater"] = {
         ["Available"] = {"Classic", "Endless"},
         ["Display"] = "Aqua Ambush",
+        ["Difficulties"] = 6,
+    };
+    ["map_christmas"] = {
+        ["Available"] = {"Classic", "Endless"},
+        ["Display"] = "Winter Wonderland",
         ["Difficulties"] = 6,
     };
     ["map_volcano"] = {
         ["Available"] = {"Classic", "Endless"},
         ["Display"] = "Volcanic Vengeance",
         ["Difficulties"] = 7,
+    };
+    ["map_space"] = {
+        ["Available"] = {"Classic", "Endless"},
+        ["Display"] = "Space Showdown",
+        ["Difficulties"] = 6,
     };
 
     -- SURVIVALS
@@ -136,9 +134,24 @@ data["MAPS"] = {
         ["Display"] = "Dojo Dynasty Island",
         ["Difficulties"] = 5,
     };
+    ["map_dungeon_aqua"] = {
+        ["Available"] = {"Survival"},
+        ["Display"] = "Aqua Ambush Island",
+        ["Difficulties"] = 5,
+    };
     ["map_dungeon_winter"] = {
         ["Available"] = {"Survival"},
         ["Display"] = "Winter Wonderland Island",
+        ["Difficulties"] = 5,
+    };
+    ["map_dungeon_volcano"] = {
+        ["Available"] = {"Survival"},
+        ["Display"] = "Volcanic Vengeance Island",
+        ["Difficulties"] = 5,
+    };
+    ["map_dungeon_space"] = {
+        ["Available"] = {"Survival"},
+        ["Display"] = "Space Showdown Island",
         ["Difficulties"] = 5,
     };
 };
