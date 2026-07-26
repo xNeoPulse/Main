@@ -162,4 +162,8 @@ data["AA"] = {
     ["FFA"] = { "Back yard" };
 };
 
+data["MACRO"] = {
+    ["Volcanic Vengeance"] = "";
+}
+
 return data;
