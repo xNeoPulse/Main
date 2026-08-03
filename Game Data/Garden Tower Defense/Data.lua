@@ -26,7 +26,8 @@ data["SUMMON"] = {
 };
 
 data["LIMITED_STOCK_UNITS"] = {
-    ["unit_water_cannon"] = { ["PRICE"] = "150,000 SEEDS" },
+    ["unit_bell_wing"] = { ["PRICE"] = "300,000 SEEDS" },
+    ["unit_orb_lobber"] = { ["PRICE"] = "150,000 SEEDS" },
     ["unit_surge_root"] = { ["PRICE"] = "300,000 SEEDS" },
 };
 
