@@ -2,6 +2,8 @@ local data = {};
 
 data["Enemies"] = {
     ["Bosses"] = {
+        ["The Shacked Warden"] = { ["Level"] = -1; ["Display"] = "The Shackled Warden"; };
+
         ["Space Invader"] = { ["Level"] = 15000; ["Display"] = "[Lv.15000] Space Invader"; };
 
         ["Niflor"] = { ["Level"] = 15000; ["Display"] = "[Lv.15000] Niflor"; };
